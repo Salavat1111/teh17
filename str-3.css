@@ -1,0 +1,404 @@
+CSS
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+/*body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}*/
+
+/* Set core body defaults */
+/*body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}*/
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+ animation-duration: 0.01ms !important;
+ animation-iteration-count: 1 !important;
+ transition-duration: 0.01ms !important;
+ scroll-behavior: auto !important;
+  }
+}
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ 
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+ 
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0px;
+}
+ 
+/* Set core body defaults */
+/*body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}*/
+ 
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+ 
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+ 
+/* Make images easier to work with */
+/*img {
+  max-width: 100%;
+  display: block;
+}*/
+ 
+/* Natural flow and rhythm in articles by default */
+/*article > * + * {
+  margin-top: 1em;
+}*/
+ 
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+ 
+/* Remove all animations and transitions for people that prefer not to see them */
+/*@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media{
+	.wrapper{width: 320px;}
+}
+
+
+
+
+/*.wrapper{
+	min-width: 320px;
+}*/
+
+.wrapper__content{	
+	width: 320px;
+	margin: 0;
+
+}
+/*.header__logo{
+	width: 100%;
+
+}*/
+.bl__logo{
+	display: flex;
+	margin-top: 18px;
+    margin-left: 10px;
+}
+.tv__one{
+	border-radius: 15px;
+	width: 130px;
+	height: 30px;
+	background-color: #46D29B;
+}
+.tv__two{
+	position: absolute;
+	left: 79px;
+    border-radius: 15px;
+	width: 79px;
+	height: 30px;
+	background-color: #28AAA7;
+}
+.tv__one p{
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	padding: 3px 16px;
+}
+.tv__two p{
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bolder;
+	color: #fff;
+    padding: 3px 10px;
+}
+img{
+	width: 175px;
+  height: 125px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.btn__burger{
+	width: 60px;
+    margin: 0 auto;
+}
+.zgl__login{
+  margin-top: 30px;
+  margin-bottom: 8px; 
+	font-family: 'Nunito Sans', sans-serif;
+	text-align: center;
+	font-weight: 900;
+}
+.bl__registr p{
+	margin: -8px 0px 35px 0px;
+    text-align: center;
+    color: #959595;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.input__regstr input{
+    margin: auto;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    display: block;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    border: 0px solid;
+    background: #EAF0FF;
+    padding: 0px 0px 0px 60px;
+   /*  background: url();*/
+    -webkit-box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
+}
+.icons__style-one{
+	color: #C4C4C4;
+    position: absolute;
+    top: 287px;
+    left: 16px;
+}
+.icons__style-two{
+    color: #C4C4C4;
+    position: absolute;
+    top: 337px;
+    left: 16px;
+
+}
+a{
+	text-decoration: none;
+	color: #C4C4C4;
+	position: relative;
+	left: 200px;
+}
+
+
+.button__burger button {
+    width: 153px;
+    height: 45px;
+    font-size: 21px;
+    border-radius: 8px;
+    border: 0px solid;
+    background: #FFED50;
+  /*  -webkit-box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);*/
+}
+
+.button__burger {
+    width: 155px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 16px;
+}
+
+.cont__bl-reg p{
+     text-align: center;
+     color: #959595;
+}
+.cont__bl-reg span{
+     color: #577CFF;
+ }
+.time__inp input{
+     width: 146px;
+     padding: 0px 0px 0px 0px;
+     text-align: center;
+}
+.time__inp{
+     margin: auto;
+}
+.container__fl-time--data{
+  display: flex;
+}
+textarea{
+  border: 0px solid;
+  padding: 10px;
+  width: 95%;
+  font-size: 20px;
+  height: 95px;
+  background: #BFECB7;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: block;
+
+   -webkit-box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
+}
+/*.textarea-inp{
+  width: 100%;
+}*/
+.cl__text-inp input::-moz-placeholder { color: black; }
+.cl__text-inp input::-webkit-input-placeholder { color: black; }
+
+
+.btn__menu{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 12px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+ 
+.btn__menu > span,
+.btn__menu > span::before,
+.btn__menu > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: .25s;
+}
+.btn__menu > span::before {
+  content: '';
+  top: -8px;
+}
+.btn__menu > span::after {
+  content: '';
+  top: 8px;
+}
+
+.icons__style-room{
+  position: absolute;
+  top: 240px;
+  left: 28px;
+  color: #C4C4C4;
+}
+.icons__style-build{
+  position: absolute;
+  top: 293px;
+  left: 28px;
+  color: #C4C4C4;
+}
+.icons__style-watch_later{
+  position: absolute;
+  top: 345px;
+  left: 28px;
+  color: #C4C4C4;
+}
+.icons__style-watch_later{
+  position: absolute;
+  top: 345px;
+  left: 28px;
+  color: #C4C4C4;
+}
+.icons__style-edit_calendar{
+  position: absolute;
+  top: 345px;
+  left: 188px;
+  color: #C4C4C4;
+}
